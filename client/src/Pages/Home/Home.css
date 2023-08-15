@@ -1,0 +1,35 @@
+.main-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 1rem;
+  /* margin: 2rem 0 2rem 1rem; */
+  padding-top: 2rem;
+  min-height: 50vh;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.weather-card {
+  min-width: 240px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  place-items: center;
+  margin: 0 auto;
+  /* border: 1px solid #2c5b61; */
+  border-radius: 8px;
+  background-color: var(--cardbkg);
+  color: var(--txt);
+}
+
+.wc-location {
+  font-size: 1.5rem;
+  font-weight: 700;
+  /* color: #2c5b61; */
+}
+
+.temp-title {
+  font-weight: 700;
+}
